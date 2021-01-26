@@ -27,6 +27,6 @@ public class QueryProcessorTest {
 
     @Test
     public void knowsAboutTuring() throws Exception {
-        assertThat(queryProcessor.process("Turing"), containsString("banana"));
+        assertThat(queryProcessor.process("Turing"), containsString("computer"));
     }
 }
